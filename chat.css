@@ -1,0 +1,455 @@
+.chatContainer {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chatList {
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 53px -21px rgba(0, 0, 0, 0.78);
+  height: 800px;
+}
+.chatHeader {
+  border-bottom: 2px solid lightgray;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+.allChat {
+  font-size: 20px;
+  font-weight: bold;
+}
+.swiper-container {
+  width: 100%;
+  height: 700px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.notificationImg {
+  height: 70px;
+}
+.notificationDetails p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.notificationDetails span {
+  font-size: 8px;
+}
+
+.notificationDetails h6 {
+  margin: 0;
+}
+.notificationDetails {
+  line-height: 14px;
+}
+
+/* Chat box */
+
+.emptyChatBox {
+  border-radius: 10px;
+  box-shadow: 0px 0px 53px -21px rgba(0, 0, 0, 0.78);
+  background-image: url("assets/empty_chat.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+.chatBox1 {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 53px -21px rgba(0, 0, 0, 0.78);
+  position: relative;
+  height: 800px;
+}
+.messangerIcon img {
+  height: 50px;
+}
+.messangerName {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.lastSeen {
+  font-size: 12px;
+}
+.messangerCol {
+  line-height: 16px;
+  margin-top: 10px;
+}
+.chatIcons {
+  margin-top: 13px;
+}
+.chatIcons img {
+  margin-right: 20px;
+  height: 20px;
+}
+
+.chatHeading {
+  box-shadow: 0px 12px 14px -6px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.date {
+  padding: 15px;
+}
+.vendor {
+  height: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.vendor img {
+  height: 45px;
+  width: 45px;
+  float: right;
+}
+
+.messageBox {
+  background-color: #f5852e;
+  float: right;
+  border-radius: 15px;
+  padding: 5px;
+  border-top-right-radius: 0px;
+  margin-top: 8px;
+  margin-right: 10px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 18px;
+}
+
+.messageBox .time {
+  font-size: 11px;
+}
+
+.vendee {
+  height: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.vendee img {
+  height: 45px;
+  width: 45px;
+  float: left;
+}
+
+.messageBox2 {
+  background-color: lightgray;
+  float: left;
+  border-radius: 15px;
+  padding: 5px;
+  border-top-left-radius: 0px;
+  margin-top: 8px;
+  margin-left: 10px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 18px;
+}
+
+.s1 {
+  width: 100%;
+  height: 600px;
+}
+
+.sl1 {
+  font-size: 18px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 30px;
+}
+.chatTextBox {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 0;
+  border-radius: 15px;
+  z-index: 1;
+  background-color: white;
+
+  -webkit-box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+  -moz-box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+  box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+}
+
+.circleBase {
+  border-top-left-radius: 110px; /* 100px of height + 10px of border */
+  border-top-right-radius: 110px; /* 100px of height + 10px of border */
+
+  border-bottom: 0;
+
+  top: -20px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  -webkit-box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+  -moz-box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+  box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+
+  z-index: 1;
+}
+
+.type1 {
+  width: 50px;
+  height: 25px;
+  background-color: white;
+}
+
+.type1 a {
+  color: #f5852e;
+}
+.makeOfferBtn {
+  width: 50%;
+  background-color: white;
+  color: #f5852e;
+  margin: 0;
+  border-radius: 0;
+  border-bottom: 1px solid lightgrey;
+}
+.tag {
+  border-radius: 20px;
+
+  border: 1px solid #f5852e;
+  background-color: white;
+  font-size: 12px;
+  color: #f5852e;
+  font-weight: bold;
+}
+.tips {
+  width: 60%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+.tips h5 {
+  color: #f5852e;
+}
+.offer {
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 15px;
+  border: 1px solid #f5852e;
+}
+
+.offer h5 {
+  color: #f5852e;
+}
+.sendBtn {
+  border-radius: 20px;
+  background-color: #f5852e;
+  color: white;
+}
+.textBox {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 15px !important;
+  -webkit-box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+  -moz-box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+  box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+}
+.btl {
+  border-top-left-radius: 15px;
+}
+.btr {
+  border-top-right-radius: 15px;
+}
+
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.input-group-text {
+  background-color: white !important;
+  border: 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.form-control {
+  border: 0px;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.oborder {
+  border-bottom: 1px solid #f5852e;
+}
+.rotate {
+  -moz-transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1 linear;
+}
+
+.rotate.down {
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 767px) {
+  .chatContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .chatList {
+    border-radius: 0px;
+
+    box-shadow: 0px 0px 53px -21px rgba(0, 0, 0, 0.78);
+    height: 800px;
+  }
+  .mobileChat {
+    height: 100%;
+  }
+  .chatTextBox {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0;
+    border-radius: 0px;
+    z-index: 999;
+    background-color: white;
+
+    -webkit-box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+    -moz-box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+    box-shadow: 0px -6px 13px -1px rgba(211, 211, 211, 0.55);
+  }
+
+  .messangerName {
+    font-size: 20px;
+  }
+
+  .messangerCol {
+    padding-left: 15px !important;
+  }
+  .chatIcons img {
+    margin-right: 5px;
+    height: 15px;
+  }
+  .s1 {
+    width: 100%;
+    height: 600px;
+  }
+
+  .sl1 {
+    font-size: 18px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 0;
+  }
+
+  .vendor {
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .messageBox {
+    background-color: #f5852e;
+    float: right;
+    border-radius: 15px;
+    padding: 5px;
+    border-top-right-radius: 0px;
+    margin-top: 8px;
+    margin-right: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 18px;
+  }
+
+  .vendee {
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .chatHeading {
+    box-shadow: 0px 12px 14px -6px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    top: 0;
+    background-color: white !important;
+    z-index: 3;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .chatContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .notificationImg {
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .notificationDetails h6 {
+    font-size: 14px;
+  }
+
+  .chatIcons img {
+    margin-right: 7px;
+    height: 15px;
+  }
+
+  .messangerName {
+    font-size: 20px;
+  }
+
+  .sl1 {
+    font-size: 18px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 0;
+  }
+  .vendor {
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .vendee {
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

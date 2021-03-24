@@ -1,0 +1,174 @@
+.card {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.lowerCard {
+  color: #f5852e;
+}
+
+.lowerCard button {
+  background-color: #f5852e;
+  color: white;
+  font-weight: bold;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.lowerCard p {
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.lowerCard h6 {
+  margin-bottom: 0;
+}
+.cardContainer {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.profileCard {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+.followBtn {
+  border-radius: 10px;
+  border: 1px solid #f5852e;
+  background-color: white;
+  color: #f5852e;
+}
+.phoneNumber {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  color: #f5852e;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.relatedContainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.s1 {
+  width: 100%;
+  height: 100%;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.sl1 {
+  font-size: 18px;
+  background: lightgray;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.houseContainer {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.houseCardImg {
+  height: 20px !important;
+  width: 20px !important;
+}
+.next:focus {
+  outline: none;
+}
+
+.prev:focus {
+  outline: none;
+}
+
+.next {
+  right: -20px;
+  top: 55%;
+  color: #505050;
+}
+
+.prev {
+  left: -20px;
+  top: 55%;
+  color: #505050;
+}
+.relatedAdd {
+  background-color: lightgray;
+}
+@media only screen and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .relatedContainer .card {
+    font-size: 10px;
+  }
+
+  .card {
+    font-size: 10px;
+  }
+
+  .card button {
+    font-size: 10px !important;
+  }
+  .locate {
+    font-size: 8px;
+  }
+
+  .phoneNumber {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+    color: #f5852e;
+  }
+}

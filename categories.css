@@ -1,0 +1,112 @@
+.card {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.lowerCard {
+  color: #f5852e;
+}
+
+.lowerCard button {
+  background-color: #f5852e;
+  color: white;
+  font-weight: bold;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.lowerCard p {
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.lowerCard h6 {
+  margin-bottom: 0;
+}
+.cardContainer {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.profileCard {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+}
+
+.profileCard ul {
+  list-style: none;
+  padding: 0%;
+}
+.profileCard li {
+  margin-top: 10px;
+}
+.followBtn {
+  border-radius: 10px;
+  border: 1px solid #f5852e;
+  background-color: white;
+  color: #f5852e;
+}
+.phoneNumber {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  color: #f5852e;
+}
+
+.badge {
+  color: #f5852e;
+  -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+.badge:nth-last-of-type(1) {
+  border: 1px solid #f5852e;
+}
+
+@media only screen and (max-width: 767px) {
+  .profileCard {
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  }
+
+  .catBtn {
+    width: 90%;
+    background-color: #f5852e;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .catBtn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    font-size: 10px;
+  }
+  .card .btn {
+    font-size: 10px;
+  }
+}
